@@ -1,0 +1,5 @@
+# rules to disable Dualshock touchpad
+# sudo libinput list-devices
+# sudo cp 99-libinput-ignore.rules /etc/udev/rules.d/
+ACTION=="add|change", ATTRS{name}=="Wireless Controller Touchpad", ENV{LIBINPUT_IGNORE_DEVICE}="1"
+ACTION=="add|change", ATTRS{name}=="Sony Interactive Entertainment DualSense Wireless Controller Touchpad", ENV{LIBINPUT_IGNORE_DEVICE}="1"
