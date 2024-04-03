@@ -12,12 +12,21 @@ sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.ta
 * Crackling sounds (Pulseaudio only)
 ```
 sudo sed -i.bak '/default-sample-rate = 44100/cdefault-sample-rate = 48000' /etc/pulse/daemon.conf
+sudo pulseaudio -k
 ```
 
 * Increase VM map count
 ```
 wget https://raw.githubusercontent.com/sigonze/PostInstallCommands/master/10-vm-map-count.conf
 sudo cp 10-vm-map-count.conf /etc/sysctl.d/
+```
+To update without restarting:
+```
+sudo sysctl -p
+```
+To check the current value:
+```
+cat /proc/sys/vm/max_map_count
 ```
 
 * Disable Dualshock/DualSense touchpad in desktop environment
