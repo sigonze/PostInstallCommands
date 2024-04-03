@@ -29,5 +29,5 @@ sudo cp 99-libinput-ignore.rules /etc/udev/rules.d/
 * Enable Freesync (X11 only)
 ```
 wget https://raw.githubusercontent.com/sigonze/PostInstallCommands/master/20-amdgpu.conf
-sudo cp 99-libinput-ignore.rules /etc/udev/rules.d/
+sudo cp 20-amdgpu.conf /etc/X11/xorg.conf.d/
 ```
