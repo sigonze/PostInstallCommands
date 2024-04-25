@@ -98,6 +98,5 @@ sudo make install
 ## HP Smart Tank Scanner
 
 ```
-sudo eopkg it sane-airscan
-sudo eopkg it skanpage
+sudo eopkg it sane-airscan skanpage
 ```
