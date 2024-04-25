@@ -6,14 +6,14 @@
 
 ## Table of contents
 
-[Disable sleep/suspend/hibernate](disable-sleepsuspendhibernate)
-[Crackling sounds (Pulseaudio only)](crackling-sounds-pulseaudio-only)
-[Increase VM map count](increase-vm-map-count)
-[Disable Dualshock/DualSense touchpad in desktop environment](disable-dualshockdualsense-touchpad-in-desktop-environment)
-[Enable Freesync (X11 only)](enable-freesync-x11-only)
-[Solus customization](solus-customization)
-[Fanatec Wheel Driver](fanatec-wheel-driver)
-[HP Smart Tank Scanner](hp-smart-tank-scanner)
+- [Disable sleep/suspend/hibernate](#disable-sleepsuspendhibernate)
+- [Crackling sounds (Pulseaudio only)](#crackling-sounds-pulseaudio-only)
+- [Increase VM map count](#increase-vm-map-count)
+- [Disable Dualshock/DualSense touchpad in desktop environment](#disable-dualshockdualsense-touchpad-in-desktop-environment)
+- [Enable Freesync (X11 only)](#enable-freesync-x11-only)
+- [Solus customization](#solus-customization)
+- [Fanatec Wheel Driver](#fanatec-wheel-driver)
+- [HP Smart Tank Scanner](#hp-smart-tank-scanner)
 
 ---
 <br>
